@@ -1,11 +1,7 @@
 # -*- mode: ruby; encoding: utf-8 -*-
-lib = File.expand_path('../lib/', __FILE__)
-$:.unshift lib unless $:.include?(lib)
-
-require 'geoip_countries/version'
+require File.expand_path('../lib/geoip_countries/version', __FILE__)
 
 Gem::Specification.new do |s|
-  
   s.name      = 'geoip-countries'
   s.version   = GeoIPCountries::VERSION
   s.platform  = Gem::Platform::RUBY
@@ -27,4 +23,3 @@ Gem::Specification.new do |s|
 
   s.add_dependency('geoip', '~> 1.1.2')
 end
-
