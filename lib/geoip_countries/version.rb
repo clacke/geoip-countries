@@ -1,3 +1,3 @@
 module GeoIPCountries
-  VERSION = "20121031"
+  VERSION = "20130103"
 end
